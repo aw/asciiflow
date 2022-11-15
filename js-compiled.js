@@ -740,7 +740,7 @@ function Fa(a) {
   });
 }
 ;function Ga(a, b) {
-  window.gapi.auth.authorize({client_id:"125643747010-9s9n1ne2fnnuh5v967licfkt83r4vba5.apps.googleusercontent.com", scope:"https://www.googleapis.com/auth/drive", A:b}, function(c) {
+  window.gapi.auth.authorize({client_id:"nope", scope:"nope", A:b}, function(c) {
     !c || c.error || a.f || (a.f = !0, $("#drive-button").addClass("active"), window.setTimeout(function() {
       Ha(a);
     }, 500));
